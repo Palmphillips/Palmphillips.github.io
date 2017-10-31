@@ -1,0 +1,43 @@
+/*Style*/
+
+.container {
+	
+    position: relative;
+    max-width: 1000px;
+    padding: 50px;
+	color: #13849E;
+	text-align: center;
+}
+
+
+body, html {
+    height: 100%;
+    
+}
+
+.parallax2 { 
+    background-image: url(me.jpg);
+
+    height: 80%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family:   'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.parallax { 
+    background-image: url(background.jpg);
+
+    height: 40%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
