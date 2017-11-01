@@ -1,6 +1,6 @@
 /*Style*/
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
 div#wrapper {
 	width: 400px;
@@ -26,14 +26,27 @@ div#header h1 {
 	width: auto;
 }
 
-.intro-section {
-	background-attachment: inherit !important;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+
+.parallax2 { 
+    background-image: url(me.jpg);
+
+    height: 50%; 
+
+    background-position: center;
+    background-size: cover;
+    
+    font-family:   'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
 }
 
-#parallax {
-	background-attachment: scroll;
+.parallax { 
+    background-image: url(background.jpg);
+    height: 40%; 
+    background-position: center;
+    background-size: cover;
+    
+    
 }
 
 }
@@ -54,7 +67,7 @@ body, html {
 }
 
 
-@media screen and (min-width: 768px) {
+
 .parallax2 { 
     background-image: url(me.jpg);
 
@@ -68,6 +81,7 @@ body, html {
     font-family:   'Source Sans Pro', sans-serif;
 	color: white;
 	text-align: center;
+	
 }
 
 .parallax { 
@@ -81,25 +95,5 @@ body, html {
     
     
 }
-}
-.parallax2 { 
-    background-image: url(me.jpg);
 
-    height: 75%; 
 
-    background-position: center;
-    background-size: cover;
-    
-    font-family:   'Source Sans Pro', sans-serif;
-	color: white;
-	text-align: center;
-}
-
-.parallax { 
-    background-image: url(background.jpg);
-    height: 40%; 
-    background-position: center;
-    background-size: cover;
-    
-    
-}
