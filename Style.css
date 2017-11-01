@@ -53,6 +53,8 @@ body, html {
     
 }
 
+
+@media screen and (min-width: 768px) {
 .parallax2 { 
     background-image: url(me.jpg);
 
@@ -75,6 +77,28 @@ body, html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+}
+.parallax2 { 
+    background-image: url(me.jpg);
+
+    height: 75%; 
+
+    background-position: center;
+    background-size: cover;
+    
+    font-family:   'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.parallax { 
+    background-image: url(background.jpg);
+    height: 40%; 
+    background-position: center;
     background-size: cover;
     
     
