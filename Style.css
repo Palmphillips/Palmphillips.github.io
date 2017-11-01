@@ -24,6 +24,21 @@ div#header h1 {
 	float:none;
 	width: auto;
 }
+
+.parallax2 { 
+    background-image: url(me.jpg);
+
+    height: 80%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+    font-family:   'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+}
 }
 
 .container {
@@ -45,7 +60,6 @@ body, html {
     background-image: url(me.jpg);
 
     height: 80%; 
-    max-width: 100%;
 
     background-attachment: fixed;
     background-position: center;
