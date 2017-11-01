@@ -45,6 +45,7 @@ body, html {
     background-image: url(me.jpg);
 
     height: 80%; 
+    max-width: 100%;
 
     background-attachment: fixed;
     background-position: center;
