@@ -1,6 +1,7 @@
 /*Style*/
 
 @media only screen and (max-device-width: 480px) {
+
 div#wrapper {
 	width: 400px;
 }
@@ -25,19 +26,8 @@ div#header h1 {
 	width: auto;
 }
 
-.parallax2 { 
-    background-image: url(me.jpg);
-
-    height: 80%; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-    
-    font-family:   'Source Sans Pro', sans-serif;
-	color: white;
-	text-align: center;
+.vc_parallax-inner.skrollable{
+	top: 0 !important
 }
 }
 
