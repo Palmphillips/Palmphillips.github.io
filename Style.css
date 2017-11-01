@@ -38,6 +38,9 @@ body, html {
     
 }
 
+h1 {
+	font-size: 400%;
+}
 @media (min-width:769px){
 
 .parallax2 { 
@@ -50,8 +53,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     
-    padding-top: 275px;
-    font-family:   'Source Sans Pro', sans-serif;
+    padding-top: 250px;
+	font-weight: 
+	font-family:   'Source Sans Pro', sans-serif;
 	color: white;
 	text-align: center;
 	
@@ -79,7 +83,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     
-    padding-top: 100px;
+    padding-top: 20%;
     font-family:   'Source Sans Pro', sans-serif;
 	color: white;
 	text-align: center;
