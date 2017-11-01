@@ -26,14 +26,10 @@ div#header h1 {
 	width: auto;
 }
 
-.parallax2 {
-
-	background-attachment: scroll;
-	background-position: top;
-	-webkit-background-size: auto;
-	-moz-background-size: auto;
-	background-size: auto;
-	
+.intro-section {
+	background-attachment: inherit !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 }
 
