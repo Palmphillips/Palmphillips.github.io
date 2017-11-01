@@ -31,6 +31,11 @@ div#header h1 {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
+
+#parallax {
+	background-attachment: scroll;
+}
+
 }
 
 .container {
@@ -51,7 +56,7 @@ body, html {
 .parallax2 { 
     background-image: url(me.jpg);
 
-    height: 80%; 
+    height: 75%; 
 
     background-attachment: fixed;
     background-position: center;
