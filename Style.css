@@ -1,56 +1,29 @@
 /*Style*/
-
+/*MOBILE SETTINGS*/
 @media screen and (max-device-width: 480px) {
 
 div#wrapper {
 	width: 400px;
 }
-
 div#header {
 	background-image: url(media-queries-phone.jpg);
 	height: 93px;
 	position: relative;
 }
-
 div#header h1 {
 	font-size: 140%;
 }
-
 #content {
 	float: none;
 	width: 100%;
 }
-
 #navigation {
 	float:none;
 	width: auto;
 }
-
-
-.parallax2 { 
-    background-image: url(me.jpg);
-
-    height: 50%; 
-
-    background-position: center;
-    background-size: cover;
-    
-    font-family:   'Source Sans Pro', sans-serif;
-	color: white;
-	text-align: center;
 }
 
-.parallax { 
-    background-image: url(background.jpg);
-    height: 40%; 
-    background-position: center;
-    background-size: cover;
-    
-    
-}
-
-}
-
+/*Main Page styling */
 .container {
 	
     position: relative;
@@ -60,24 +33,24 @@ div#header h1 {
 	text-align: center;
 }
 
-
 body, html {
     height: 100%;
     
 }
 
-
+@media (min-width:769px){
 
 .parallax2 { 
     background-image: url(me.jpg);
 
-    height: 75%; 
+    height: 80%; 
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+    padding-top: 275px;
     font-family:   'Source Sans Pro', sans-serif;
 	color: white;
 	text-align: center;
@@ -95,5 +68,32 @@ body, html {
     
     
 }
+}
 
+@media (max-width:768px){
+.parallax2 { 
+    background-image: url(me.jpg);
 
+    height: 35%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding-top: 100px;
+    font-family:   'Source Sans Pro', sans-serif;
+	color: white;
+	text-align: center;
+	
+}
+
+.parallax { 
+    background-image: url(background.jpg);
+
+    height: 40%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+}
