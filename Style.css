@@ -31,26 +31,57 @@ div#header h1 {
     padding: 1.625em 0 0;
     overflow: auto;
     font-family:Palatino;
+    background-color: black;
     
 }
+
 
 body, html {
     height: 100%;
     
 }
 
+.btn{
+
+	font-family:Palatino;
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	border: white;
+	border-width: 2px;
+	font-weight: bold;
+	border-style:solid;
+	color: white;
+	border-radius: 100px;
+}
+
+.btn:hover{
+
+	background-color: gray;
+	color: white;
+	
+}
+
 #split{
   width: 50%;
   float: left;
   padding: 7.5%;
-  font-size:20px;
 }
 
 h1 {
 	font-size: 50px;
 	text-align: center;
-	font-weight: bold
+	font-weight: bold;
+	color: white;
 	
+}
+
+p {
+	color: white;
+	
+	letter-spacing: 1.5px;
 }
 
 /*FIT BETWEEN SCREENS */
