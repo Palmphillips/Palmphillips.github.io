@@ -86,9 +86,10 @@ p {
 
 
 #split{
-  width: 50%;
-  float:left;
-  padding: 7.5%;
+	width: 50%;
+	float:left;
+	padding: 7.5%;
+	margin: 0px;
 }
 
 .parallax2 { 
@@ -119,7 +120,6 @@ p {
 @media (max-width:768px){
 
 #split{
-  width: 50%;
   text-align:center;
   padding: 7.5%;
 }
