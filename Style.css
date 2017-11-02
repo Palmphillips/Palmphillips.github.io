@@ -27,7 +27,7 @@ div#header h1 {
 .container {
 	
     position: relative;
-    max-width: 1000px;
+    max-width: 1500px;
     padding: 1.625em 0 0;
     overflow: auto;
     font-family:Palatino;
@@ -65,11 +65,7 @@ body, html {
 	
 }
 
-#split{
-  width: 50%;
-  float: left;
-  padding: 7.5%;
-}
+
 
 h1 {
 	font-size: 50px;
@@ -89,7 +85,11 @@ p {
 @media (min-width:769px){
 
 
-
+#split{
+  width: 50%;
+  float: left;
+  padding: 7.5%;
+}
 
 .parallax2 { 
     background-image: url(me.jpg);
@@ -118,8 +118,10 @@ p {
 }
 @media (max-width:768px){
 
-h1 {
-	font-size: 40px;
+#split{
+  width: 50%;
+  float: middle;
+  padding: 7.5%;
 }
 
 .parallax2 { 
