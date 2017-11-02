@@ -87,7 +87,7 @@ p {
 
 #split{
   width: 50%;
-  float: left;
+  float:left;
   padding: 7.5%;
 }
 
@@ -120,7 +120,7 @@ p {
 
 #split{
   width: 50%;
-  float: middle;
+  text-align:center;
   padding: 7.5%;
 }
 
