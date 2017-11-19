@@ -90,9 +90,7 @@ p2 {
 
 	color: white;
 	font-size: 23px;
-	position: relatives !important;
 	padding-top: 20px;
-	text-align: center;
 }
 i {
 
@@ -161,6 +159,7 @@ i {
 	padding: 7.5%;
 	margin: 0px;
 	display: inline;
+	text-align: center;
 	
 }
 
