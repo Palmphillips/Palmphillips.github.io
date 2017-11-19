@@ -75,11 +75,33 @@ h1 {
 	
 }
 
+h5 {
+	color: white;
+	font-weight: bold;
+}
+
 p {
 	color: white;
 	
 	letter-spacing: 1.5px;
 }
+
+p2 {
+
+	color: white;
+	font-size: 23px;
+	position: relatives !important;
+	padding-top: 20px;
+	text-align: center;
+}
+i {
+
+	float: left;
+	font-size: 150px;
+	color: white;
+	
+}
+
 
 /*FIT BETWEEN SCREENS */
 @media (min-width:769px){
@@ -90,6 +112,15 @@ p {
 	float:left;
 	padding: 7.5%;
 	margin: 0px;
+}
+
+#split2{
+	width: 50%;
+	float:left;
+	padding: 7.5%;
+	margin: 0px;
+	display: inline;
+	
 }
 
 .parallax2 { 
@@ -122,6 +153,15 @@ p {
 #split{
   text-align:center;
   padding: 7.5%;
+}
+
+#split2{
+	width: 50%;
+	float:left;
+	padding: 7.5%;
+	margin: 0px;
+	display: inline;
+	
 }
 
 .parallax2 { 
