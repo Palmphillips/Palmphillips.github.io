@@ -90,7 +90,9 @@ p2 {
 
 	color: white;
 	font-size: 23px;
-	padding-top: 20px;
+	text-align: center;
+	display: inherit;
+	margin-top: 10%;
 }
 i {
 
