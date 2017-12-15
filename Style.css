@@ -126,7 +126,7 @@ i {
 .parallax { 
     background-image: url(top2.png);
 
-    height: 80%; 
+    height: 100%; 
 
     background-attachment: fixed;
     background-position: center;
