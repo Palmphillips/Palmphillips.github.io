@@ -123,8 +123,8 @@ i {
 	
 }
 
-.parallax2 { 
-    background-image: url(Front2t.png);
+.parallax { 
+    background-image: url(top.png);
 
     height: 80%; 
 
@@ -136,7 +136,7 @@ i {
 	
 }
 
-.parallax { 
+.parallax2 { 
     background-image: url(background.jpg);
 
     height: 40%; 
@@ -149,7 +149,7 @@ i {
 }
 
 .parallax3 { 
-    background-image: url(pic1.jpg.jpg);
+    background-image: url(pic1.jpg);
 
     height: 40%; 
     background-attachment: fixed;
@@ -178,8 +178,8 @@ i {
 	
 }
 
-.parallax2 { 
-    background-image: url(Front2t.png);
+.parallax { 
+    background-image: url(top.png);
 
     height: 35%; 
     background-position: center;
@@ -188,7 +188,7 @@ i {
     
 }
 
-.parallax { 
+.parallax2 { 
     background-image: url(background.jpg);
 
     height: 40%; 
