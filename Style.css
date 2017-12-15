@@ -124,7 +124,7 @@ i {
 }
 
 .parallax2 { 
-    background-image: url(background.jpg);
+    background-image: url(Front2t.png);
 
     height: 80%; 
 
@@ -147,6 +147,19 @@ i {
     
     
 }
+
+.parallax3 { 
+    background-image: url(pic1.jpg.jpg);
+
+    height: 40%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
 }
 @media (max-width:768px){
 
@@ -166,7 +179,7 @@ i {
 }
 
 .parallax2 { 
-    background-image: url(background.jpg);
+    background-image: url(Front2t.png);
 
     height: 35%; 
     background-position: center;
@@ -177,6 +190,17 @@ i {
 
 .parallax { 
     background-image: url(background.jpg);
+
+    height: 40%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.parallax3 { 
+    background-image: url(pic1.jpg);
 
     height: 40%; 
     background-position: center;
