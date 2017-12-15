@@ -126,14 +126,11 @@ i {
 .parallax { 
     background-image: url(top2.png);
 
-    height: 100%; 
-
-    background-attachment: fixed;
+    height: 35%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
-	
 }
 
 .parallax2 { 
@@ -151,7 +148,7 @@ i {
 .parallax3 { 
     background-image: url(pic1.jpg);
 
-    height: 40%; 
+    height: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
